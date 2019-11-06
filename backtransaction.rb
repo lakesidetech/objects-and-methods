@@ -26,3 +26,13 @@ bankTransaction1 = BankTransaction.new
 puts bankTransaction1.just_arrived
 puts bankTransaction1.have_picked_up_ticket
 puts bankTransaction1.have_valid_id?("no")
+
+class Bank
+    def have_picked_up_ticket 
+        "picked my ticket from the machine"
+    end
+
+end
+
+equity1 = Bank.new
+puts equity1.have_picked_up_ticket

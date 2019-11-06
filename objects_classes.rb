@@ -1,7 +1,7 @@
 #[10, 5, 10, 3, 100] to arrange elements inside it from smallest to largest
 
 ar=[10, 5, 10, 3, 100]
-    
+print [10, 5, 10, 3, 100].sort
     puts ar.sort
 #ask 100 to increase itself by 5
     
